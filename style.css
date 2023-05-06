@@ -309,7 +309,7 @@ footer {
 
     .header__links {
         gap: 1rem;
-        margin-left: 0;
+        margin-left: 1rem;
     }
 
     .header__contacts {
@@ -321,9 +321,13 @@ footer {
     }
 }
 
-@media (max-width: 843px) {
+@media (max-width: 873px) {
     body {
         padding: 0;
+    }
+
+    body > div {
+        width: 100%;
     }
 
     main {
@@ -353,7 +357,7 @@ footer {
         padding: 2.563rem 1rem;
         flex-direction: column;
         gap: 1.875rem;
-        width: 100vw;
+
         background-size: cover;
         background-attachment: fixed;
     }
@@ -411,6 +415,7 @@ footer {
         line-height: 0.938rem;
         gap: 1.25rem;
         text-transform: uppercase;
+        margin-left: 0;
     }
 
     .product-offer__header {
@@ -421,6 +426,7 @@ footer {
     .offering__details-header {
         font-size: 0.813rem;
         font-weight: 400;
+        white-space: nowrap;
         font-family: 'Montserrat', sans-serif;
     }
 
@@ -485,9 +491,16 @@ footer {
     }
 }
 
-@media (max-width: 330px) {
-    header {
-        padding-left: 0.5rem;
-        padding-right: 0.5rem;
+@media (max-width: 331px) {
+    .header__links {
+        gap: 0.7rem;
+    }
+
+    footer {
+        padding-left: 0.9rem;
+    }
+
+    .menu_wrapper {
+        gap: 2rem;
     }
 }
