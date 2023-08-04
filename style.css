@@ -57,6 +57,7 @@ header {
 
 .link {
     display: block;
+    height: fit-content;
     text-decoration: none;
     color: #E4E5EA;
     line-height: 1.25rem;
